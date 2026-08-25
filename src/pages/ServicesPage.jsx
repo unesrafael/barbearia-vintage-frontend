@@ -41,7 +41,7 @@ export function ServicesPage() {
           ? `${removing.name} foi desativado.`
           : `${removing.name} foi removido.`,
         status === 200
-          ? 'O serviço tem histórico de atendimentos, entao continua no sistema — só não aparece mais para novos agendamentos.'
+          ? 'O serviço tem histórico de atendimentos, então continua no sistema — só não aparece mais para novos agendamentos.'
           : undefined
       );
       setRemoving(null);
